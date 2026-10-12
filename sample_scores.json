@@ -1,0 +1,307 @@
+{
+  "sample_pizza.jpg": {
+    "predicted": "pizza",
+    "max_cosine": 0.292235,
+    "max_softmax": 0.994976,
+    "cosine_decision": "pizza",
+    "softmax_decision": "pizza",
+    "scores": [
+      {
+        "name": "pizza",
+        "cosine": 0.292235,
+        "softmax": 0.994976
+      },
+      {
+        "name": "caesar_salad",
+        "cosine": 0.229936,
+        "softmax": 0.00196
+      },
+      {
+        "name": "tacos",
+        "cosine": 0.227123,
+        "softmax": 0.001479
+      },
+      {
+        "name": "sushi",
+        "cosine": 0.217793,
+        "softmax": 0.000582
+      },
+      {
+        "name": "ramen",
+        "cosine": 0.216468,
+        "softmax": 0.00051
+      },
+      {
+        "name": "steak",
+        "cosine": 0.206059,
+        "softmax": 0.00018
+      },
+      {
+        "name": "fried_rice",
+        "cosine": 0.204191,
+        "softmax": 0.000149
+      },
+      {
+        "name": "hamburger",
+        "cosine": 0.204136,
+        "softmax": 0.000149
+      },
+      {
+        "name": "ice_cream",
+        "cosine": 0.179859,
+        "softmax": 1.3e-05
+      },
+      {
+        "name": "chocolate_cake",
+        "cosine": 0.162084,
+        "softmax": 2e-06
+      }
+    ],
+    "device": "cuda",
+    "model": "openai/clip-vit-base-patch32"
+  },
+  "sample_ice_cream.jpg": {
+    "predicted": "ice_cream",
+    "max_cosine": 0.209482,
+    "max_softmax": 0.200841,
+    "cosine_decision": "unknown",
+    "softmax_decision": "unknown",
+    "scores": [
+      {
+        "name": "ice_cream",
+        "cosine": 0.209482,
+        "softmax": 0.200841
+      },
+      {
+        "name": "hamburger",
+        "cosine": 0.205644,
+        "softmax": 0.13682
+      },
+      {
+        "name": "chocolate_cake",
+        "cosine": 0.204874,
+        "softmax": 0.126687
+      },
+      {
+        "name": "steak",
+        "cosine": 0.20311,
+        "softmax": 0.1062
+      },
+      {
+        "name": "sushi",
+        "cosine": 0.202373,
+        "softmax": 0.098657
+      },
+      {
+        "name": "pizza",
+        "cosine": 0.201455,
+        "softmax": 0.089999
+      },
+      {
+        "name": "caesar_salad",
+        "cosine": 0.201396,
+        "softmax": 0.089467
+      },
+      {
+        "name": "tacos",
+        "cosine": 0.197607,
+        "softmax": 0.061254
+      },
+      {
+        "name": "fried_rice",
+        "cosine": 0.195108,
+        "softmax": 0.047708
+      },
+      {
+        "name": "ramen",
+        "cosine": 0.19392,
+        "softmax": 0.042366
+      }
+    ],
+    "device": "cuda",
+    "model": "openai/clip-vit-base-patch32"
+  },
+  "sample_pho.jpg": {
+    "predicted": "ramen",
+    "max_cosine": 0.310082,
+    "max_softmax": 0.997354,
+    "cosine_decision": "ramen",
+    "softmax_decision": "ramen",
+    "scores": [
+      {
+        "name": "ramen",
+        "cosine": 0.310082,
+        "softmax": 0.997354
+      },
+      {
+        "name": "sushi",
+        "cosine": 0.244384,
+        "softmax": 0.001398
+      },
+      {
+        "name": "fried_rice",
+        "cosine": 0.235913,
+        "softmax": 0.000599
+      },
+      {
+        "name": "hamburger",
+        "cosine": 0.225909,
+        "softmax": 0.00022
+      },
+      {
+        "name": "steak",
+        "cosine": 0.220411,
+        "softmax": 0.000127
+      },
+      {
+        "name": "tacos",
+        "cosine": 0.219665,
+        "softmax": 0.000118
+      },
+      {
+        "name": "ice_cream",
+        "cosine": 0.217419,
+        "softmax": 9.4e-05
+      },
+      {
+        "name": "caesar_salad",
+        "cosine": 0.211905,
+        "softmax": 5.4e-05
+      },
+      {
+        "name": "chocolate_cake",
+        "cosine": 0.204051,
+        "softmax": 2.5e-05
+      },
+      {
+        "name": "pizza",
+        "cosine": 0.194133,
+        "softmax": 9e-06
+      }
+    ],
+    "device": "cuda",
+    "model": "openai/clip-vit-base-patch32"
+  },
+  "sample_red_velvet.jpg": {
+    "predicted": "chocolate_cake",
+    "max_cosine": 0.322091,
+    "max_softmax": 0.999368,
+    "cosine_decision": "chocolate_cake",
+    "softmax_decision": "chocolate_cake",
+    "scores": [
+      {
+        "name": "chocolate_cake",
+        "cosine": 0.322091,
+        "softmax": 0.999368
+      },
+      {
+        "name": "ice_cream",
+        "cosine": 0.245842,
+        "softmax": 0.000488
+      },
+      {
+        "name": "steak",
+        "cosine": 0.223282,
+        "softmax": 5.1e-05
+      },
+      {
+        "name": "hamburger",
+        "cosine": 0.221024,
+        "softmax": 4.1e-05
+      },
+      {
+        "name": "sushi",
+        "cosine": 0.21304,
+        "softmax": 1.8e-05
+      },
+      {
+        "name": "caesar_salad",
+        "cosine": 0.208785,
+        "softmax": 1.2e-05
+      },
+      {
+        "name": "tacos",
+        "cosine": 0.208549,
+        "softmax": 1.2e-05
+      },
+      {
+        "name": "pizza",
+        "cosine": 0.203745,
+        "softmax": 7e-06
+      },
+      {
+        "name": "ramen",
+        "cosine": 0.188495,
+        "softmax": 2e-06
+      },
+      {
+        "name": "fried_rice",
+        "cosine": 0.183869,
+        "softmax": 1e-06
+      }
+    ],
+    "device": "cuda",
+    "model": "openai/clip-vit-base-patch32"
+  },
+  "sample_fries.jpg": {
+    "predicted": "caesar_salad",
+    "max_cosine": 0.271325,
+    "max_softmax": 0.946071,
+    "cosine_decision": "unknown",
+    "softmax_decision": "unknown",
+    "scores": [
+      {
+        "name": "caesar_salad",
+        "cosine": 0.271325,
+        "softmax": 0.946071
+      },
+      {
+        "name": "steak",
+        "cosine": 0.239989,
+        "softmax": 0.04121
+      },
+      {
+        "name": "tacos",
+        "cosine": 0.221822,
+        "softmax": 0.006699
+      },
+      {
+        "name": "sushi",
+        "cosine": 0.209949,
+        "softmax": 0.002044
+      },
+      {
+        "name": "hamburger",
+        "cosine": 0.207079,
+        "softmax": 0.001534
+      },
+      {
+        "name": "pizza",
+        "cosine": 0.202934,
+        "softmax": 0.001013
+      },
+      {
+        "name": "fried_rice",
+        "cosine": 0.19758,
+        "softmax": 0.000593
+      },
+      {
+        "name": "ramen",
+        "cosine": 0.195125,
+        "softmax": 0.000464
+      },
+      {
+        "name": "ice_cream",
+        "cosine": 0.191816,
+        "softmax": 0.000333
+      },
+      {
+        "name": "chocolate_cake",
+        "cosine": 0.170148,
+        "softmax": 3.8e-05
+      }
+    ],
+    "device": "cuda",
+    "model": "openai/clip-vit-base-patch32"
+  }
+}
